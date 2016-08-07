@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Straight Talk</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="guest">Guest</string>
+    <string name="no_internet">No Internet</string>
+    <string name="ok">Ok</string>
+    <string name="search_hint">Search</string>
+    <string name="notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_notifications">No Notifications</string>
+    <string name="title_genre_filter">Choose Your Fav Topics</string>
+    <string name="choose">Apply Filter</string>
+    <string name="title_event_filter">Select your choice</string>
+    <string name="invalid_date">Select A Valid Date</string>
+    <string name="title_follow">Follow Them</string>
+    <string name="content">Yor are now their followers. Go Premium For more options and one-to-one interaction with our higher authorities.</string>
+    <string name="forgot_password_message">We will send an OTP through which you ca reset your password.</string>
+    <string name="phone_number">Mobile Number</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="title_forgot">Password Reset</string>
+    <string name="content_forgot">Check your email and reset your account.</string>
+</resources>

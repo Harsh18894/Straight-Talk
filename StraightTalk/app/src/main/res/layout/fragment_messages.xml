@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.straighttalk.fragments.MessagesFragment">
+
+    <TextView
+        android:id="@+id/txtNoMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:gravity="center"
+        android:text="No New Messages"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/imgNoMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/no_orders" />
+</RelativeLayout>

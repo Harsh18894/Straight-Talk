@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#1ca59a</color>
+    <color name="primary_dark">#1ca59a</color>
+    <color name="primary_darker">#1ca59a</color>
+    <color name="accent">#000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="tab_black">#1d2127</color>
+
+    <color name="grey_white">#f2f2f2</color>
+    <color name="dirty_white">#C0C0C0</color>
+
+    <color name="btn_unclicked">#5cae99</color>
+    <color name="btn_clicked">#5cae99</color>
+
+    <color name="forgot_password">#3D3A3A</color>
+    <color name="sign_up">#3D3A3A</color>
+    <color name="btn_text_color">#78dfca</color>
+    <color name="btn_text_clicked_color">#5cae99</color>
+
+    <color name="feed_bg">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color>
+
+    <color name="heading_background">#e0e1e3</color>
+    <color name="item_divider">#B6B6B6</color>
+
+    <color name="frame">@android:color/black</color>
+    <color name="inset">#9000</color>
+
+</resources>

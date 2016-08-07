@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.straighttalk"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile('com.github.afollestad.material-dialogs:core:0.8.5.4@aar') {
+        transitive = true
+    }
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.google.code.gson:gson:1.7.2'
+    compile 'com.github.nirhart:parallaxscroll:1.0'
+    compile 'com.nispok:snackbar:2.11.+'
+    compile 'com.andraskindler.parallaxviewpager:parallaxviewpager:0.3.1'
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    compile 'com.prolificinteractive:material-calendarview:1.2.0'
+    compile 'com.github.ganfra:material-spinner:1.1.1'
+    compile 'com.wdullaer:materialdatetimepicker:2.2.0'
+    compile 'com.flyco.pageindicator:FlycoPageIndicator_Lib:1.0.0@aar'
+    compile 'com.android.support:cardview-v7:23.4.0'
+    compile 'com.android.support:palette-v7:23.4.0'
+    compile 'com.jpardogo.listbuddies:library:1.1.1'
+    compile 'com.pkmmte.view:circularimageview:1.1'
+    compile 'com.github.citux:datetimepicker:0.2.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.android.support:support-v4:23.4.0'
+}
+repositories {
+    maven { url "https://jitpack.io" }
+}

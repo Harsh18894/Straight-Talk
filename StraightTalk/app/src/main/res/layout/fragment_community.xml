@@ -1,0 +1,62 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/et_background"
+        android:clickable="true"
+        android:drawableLeft="@mipmap/ic_date_black"
+        android:drawablePadding="15dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Schedule A Meeting"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black" />
+
+    <com.straighttalk.ui.button.ButtonPlus
+        android:id="@+id/btnSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:layout_below="@+id/txtDate"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:text="Schedule"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/txtOr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:layout_below="@+id/btnSchedule"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="20dip"/>
+
+    <com.straighttalk.ui.button.ButtonPlus
+        android:id="@+id/btnOrganise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtOr"
+        android:background="@color/primary"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="20dip"
+        android:text="Video Conferencing"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:textSize="18sp"/>
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/listBrowse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:divider="?android:attr/listDivider">
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutFilterButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <com.straighttalk.ui.button.ButtonPlus
+            android:id="@+id/btnGenre"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#f0f0f0"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="Genre Filter"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#DDAAAAAA"
+            android:textStyle="normal" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+
+        <com.straighttalk.ui.button.ButtonPlus
+            android:id="@+id/btnEvent"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#f0f0f0"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="Event Filter"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#DDAAAAAA"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+</RelativeLayout>

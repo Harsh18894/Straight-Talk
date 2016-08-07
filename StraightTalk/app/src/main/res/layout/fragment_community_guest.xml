@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.straighttalk.fragments.CommunityFragmentGuest">
+
+    <TextView
+        android:id="@+id/txtPeople"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="15dip"
+        android:text="Some of out Popular Members"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage1"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/txtPeople"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:src="@drawable/pic1" />
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage2"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/txtPeople"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:layout_toRightOf="@+id/circleImage1"
+        android:src="@drawable/pic2" />
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage3"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/txtPeople"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:layout_toRightOf="@+id/circleImage2"
+        android:src="@drawable/pic3" />
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage4"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/circleImage1"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:src="@drawable/pic4" />
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage5"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/circleImage1"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:layout_toRightOf="@+id/circleImage4"
+        android:src="@drawable/pic5" />
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage6"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/circleImage1"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:layout_toRightOf="@+id/circleImage5"
+        android:src="@drawable/pic6" />
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage7"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/circleImage4"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:src="@drawable/pic7" />
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage8"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/circleImage4"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:layout_toRightOf="@+id/circleImage7"
+        android:src="@drawable/pic8" />
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage9"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/circleImage4"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:layout_toRightOf="@+id/circleImage8"
+        android:src="@drawable/pic9" />
+
+    <com.straighttalk.ui.button.ButtonPlus
+        android:id="@+id/btnFollow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/primary"
+        android:text="Follow Them to stay updated"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
